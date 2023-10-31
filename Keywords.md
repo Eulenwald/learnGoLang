@@ -3,7 +3,7 @@ Learn GoLang used Udemy
 
 
 Liste aller Keywords in goLang
-1. **chan** (English: Channel, Deutsch: Kanal): Defines a channel used for communication between goroutines. (Definiert einen Kanal, der zur Kommunikation zwischen Goroutinen verwendet wird.)
+1. **chan** : Defines a channel used for communication between goroutines. (Definiert einen Kanal, der zur Kommunikation zwischen Goroutinen verwendet wird.)
 
 2. **const** : Declares a constant. (Deklariert eine Konstante.)
 
