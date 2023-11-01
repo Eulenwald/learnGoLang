@@ -27,4 +27,5 @@ func main() {
 	y = int(x)
 	fmt.Printf("Der wert von y ist ->%v<-\n", y)
 	fmt.Printf("y ist vom Typ %T\n", y)
+	
 }
