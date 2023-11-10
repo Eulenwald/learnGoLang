@@ -8,6 +8,8 @@
 *.so
 *.dylib
 
+Kursübersicht_+Programmieren+lernen+mit+Go+(golang).pdf
+
 # Test binary, built with `go test -c`
 *.test
 
