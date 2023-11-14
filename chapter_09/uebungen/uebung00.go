@@ -7,6 +7,7 @@ import (
 
 func main() {
 	uebung06()
+	testSprung()
 }
 
 func uebung01(){
@@ -66,5 +67,15 @@ Erstellen Sie ein Programm, das ein if-Statement nutzt.
 func uebung06(){
 	if 'a' < 'b' {
 		fmt.Println("a ist < b")
+	}
+}
+
+
+func testSprung() {
+
+	sprungmarke:
+	for i := 0; i < 20; i++ {
+		if i == 5 { break sprungmarke}
+		fmt.Println(i)
 	}
 }
