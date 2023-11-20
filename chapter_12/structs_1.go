@@ -6,22 +6,22 @@ type emailaddress struct {
 	name string
 }
 
-type schluempfe struct {
+type schluempfeA struct {
 	nickname string
 	name     string
 	age      uint8
 	email    emailaddress
 }
 
-func main() {
-	schlumpf1 := schluempfe{
+func main2() {
+	schlumpf1 := schluempfeA{
 		nickname: "Papa",
 		name:     "Schlupmf",
 		age:      107,
 		email:    emailaddress{name: "papa@web.de"},
 	}
 
-	schlumpf2 := schluempfe{
+	schlumpf2 := schluempfeA{
 		nickname: "Schlaumi",
 		name:     "Schlupmf",
 		age:      20,
