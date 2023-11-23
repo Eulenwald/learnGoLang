@@ -1,0 +1,26 @@
+[
+  {
+      "id": 8,
+      "name": "esp001",
+      "model": "Esp8266 mini",
+      "createdAt": "2023-07-29T17:19:31.821+02:00",
+      "updatedAt": "2023-07-29T17:19:31.821+02:00",
+      "description": "Raumbeleuchtung -Temperatur und Luftfeuchtigkeit!"
+  },
+  {
+      "id": 9,
+      "name": "esp002",
+      "model": "Esp32",
+      "createdAt": "2023-07-29T17:19:31.848+02:00",
+      "updatedAt": "2023-07-29T17:19:31.848+02:00",
+      "description": "Boden-Temperatur und -Feuchtigkeit!"
+  },
+  {
+      "id": 10,
+      "name": "espAll",
+      "model": "Fiktion",
+      "createdAt": "2023-07-29T17:19:31.874+02:00",
+      "updatedAt": "2023-07-29T17:19:31.874+02:00",
+      "description": ""
+  }
+]

@@ -1,5 +1,6 @@
 # learnGoLang
 Learn GoLang used Udemy
+"No additional Java developer"
 
 
 Liste aller Keywords in goLang
