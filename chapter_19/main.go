@@ -180,6 +180,7 @@ func uebung05() {
 
 	fmt.Println("unsorted")
 	users := []user{u1, u2, u3, u4, u5}
+	/* Here we sorted the typical zitats by alphabet */
 	fmt.Println(users[1].Sprüche)
 	for _, v := range users {
 		fmt.Printf("u: %v\n", v.Sprüche)
@@ -188,6 +189,7 @@ func uebung05() {
 	}
 	
 	// Sort by Name
+	/* Here we sorted the users by Name alphabet */
 	slices.SortFunc(users, sortByName)
 	fmt.Println("Sorted bz Name")
 	for _, v := range users {
@@ -195,6 +197,7 @@ func uebung05() {
 	}
 
 	// Sort by Age
+	/* Here we sorted the users by age alphabet */
 	slices.SortFunc(users, sortByAge)
 	fmt.Println("Sorted bz Age")
 	for _, v := range users {
