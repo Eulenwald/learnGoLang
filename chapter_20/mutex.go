@@ -8,7 +8,7 @@ import (
 
 var mu sync.Mutex
 
-func mutex() {
+func mutexExp() {
 	fmt.Println("Kapitel 20 Mutex")
 
 	fmt.Println("CPUs:", runtime.NumCPU())

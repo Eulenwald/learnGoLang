@@ -8,5 +8,9 @@ import (
 func main() {
 	fmt.Println("Kapitel 20 Mutex")
 
-	mutex()
+	mutexExp()
+}
+
+func mutexExp() {
+	panic("unimplemented")
 }
