@@ -16,7 +16,7 @@ func main() {
 		sl = append(sl, rand.Intn(100))
 	}
 
-	ch := make(chan int)
+	ch1 := make(chan int)
 
 	//go summary(sl, ch)
 
@@ -27,10 +27,9 @@ func main() {
 	for i < parts {
 		// sl[0:(1*2)]
 		// fmt.Printf("go summary(sl[%d:%d],ch)\n", i*portion, (i+1)*portion)
-		go summary(sl[i*portion:(i+1)*portion], ch)
+		go summary(sl[i*portion:(i+1)*portion], ch1)
 		i += 1
 	}
-	close(ch)
 	// looking for the rest of slice for the modulo rest
 	// if parts*portion < slSize {
 		//fmt.Printf("1 more time: go summary(sl[%d:],ch)\n", i*portion)
@@ -41,7 +40,7 @@ func main() {
 	chSum := 0
 
 	for i := 0; i < parts; i++ {
-		part := <-ch
+		part := <-ch1
 		fmt.Println("part is:", part)
 		chSum += part
 	}
@@ -68,8 +67,7 @@ func iterate() {
 	go fib(10, ch)
 
 	for v := range ch {
-		i := v
-		fmt.Println(v, i)
+		fmt.Println(v)
 		//part := <- v 		fmt.Println("part is:", part)		chSum += part
 	}
 }
